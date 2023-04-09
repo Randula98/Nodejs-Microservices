@@ -1,5 +1,5 @@
 export const getFakeAPI = async (req, res, next) => {
-    res.send(`Hello from the Fake Post api - no params`);
+    res.send(`Hello from the Fake Get api - no params`);
 }
 
 export const postFakeAPI = async (req, res, next) => {
